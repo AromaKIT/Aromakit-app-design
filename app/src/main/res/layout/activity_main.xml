@@ -15,7 +15,7 @@
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="How are you feeling today?"
+        android:text="@string/feeling"
         android:gravity="center"
         android:textSize="30sp"
         android:textColor="#62cabf"
@@ -43,7 +43,7 @@
             android:layout_margin="5dp"
             android:backgroundTint="#5bc8b2"
             android:gravity="center"
-            android:text="😌\nCalm"
+            android:text="@string/calm"
             android:textColor="#d8fff8"
             android:textSize="20sp" />
 
@@ -53,7 +53,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             android:backgroundTint="#5bc8b2"
-            android:text="😔\nSad"
+            android:text="@string/sad"
             android:textColor="#d8fff8"
             android:textSize="20sp"
             android:gravity="center" />
@@ -63,7 +63,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             android:backgroundTint="#5bc8b2"
-            android:text="😴\nTired"
+            android:text="@string/tired"
             android:textColor="#d8fff8"
             android:textSize="20sp"
             android:gravity="center" />
@@ -73,7 +73,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             android:backgroundTint="#5bc8b2"
-            android:text="😖\nAnxious"
+            android:text="@string/anxious"
             android:textColor="#d8fff8"
             android:textSize="20sp"
             android:gravity="center" />
@@ -83,7 +83,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             android:backgroundTint="#5bc8b2"
-            android:text="😡\nAngry"
+            android:text="@string/angry"
             android:textColor="#d8fff8"
             android:textSize="20sp"
             android:gravity="center" />
@@ -93,7 +93,7 @@
             android:layout_height="100dp"
             android:layout_margin="5dp"
             android:backgroundTint="#5bc8b2"
-            android:text="🤔\nUnsure"
+            android:text="@string/unsure"
             android:textColor="#d8fff8"
             android:textSize="20sp"
             android:gravity="center" />
@@ -106,7 +106,7 @@
             android:layout_below="@id/buttonGrid"
             android:backgroundTint="#5bc8b2"
             android:layout_centerHorizontal="true"
-            android:text="Go to Goal Focus" />
+            android:text="@string/goal_button" />
     </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

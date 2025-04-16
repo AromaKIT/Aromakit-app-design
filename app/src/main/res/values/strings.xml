@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">New Aromakit</string>
+    <string name="feeling">How are you feeling today?</string>
+    <string name="calm">😌\nCalm</string>
+    <string name="sad">😔\nSad</string>
+    <string name="tired">😴\nTired</string>
+    <string name="anxious">😖\nAnxious</string>
+    <string name="angry">😡\nAngry</string>
+    <string name="unsure">🤔\nUnsure</string>
+    <string name="goal_button">Go to Goal Focus</string>
+    <string name="goal_title">Today I want to:</string>
+    <string name="relieve_anxiety">Relieve Anxiety</string>
+    <string name="improve_health">Improve Health</string>
+    <string name="relationships">Focus on Relationships</string>
+    <string name="money">Attract Money</string>
+    <string name="main_back">Back to Main Screen</string>
 </resources>
