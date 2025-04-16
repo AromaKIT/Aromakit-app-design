@@ -73,10 +73,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Back to Main Screen"
+            android:layout_below="@id/affirmations"
             android:layout_marginTop="20dp"
             android:backgroundTint="#5bc8b2"
             android:textColor="#d8fff8"
             android:textSize="20sp"
+            android:layout_centerHorizontal="true"
             android:layout_gravity="center"/>
 
         <TextView
